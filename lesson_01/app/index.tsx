@@ -88,7 +88,7 @@ export default function Index() {
                   "Hello",
                   "fix the error",
                   [
-                    { text: "Cancel", onPress: () => console.log("cancel"), style: "cancel" },
+                    { text: "Cancel", onPress: () => console.log("cancel"), style:"destructive" },
                     { text: "Ok", onPress: () => console.log("ok") }
                   ],
                   { cancelable: true }
