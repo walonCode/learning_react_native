@@ -1,13 +1,12 @@
-import { View, Text, Image, StyleSheet, Platform, ScrollView } from 'react-native'
+import { View, Text, Image, StyleSheet, Platform,  } from 'react-native'
 import React from 'react'
 
 export default function PokemonCard({data}:{data:any}) {
   return (
-   <ScrollView>
      <View style={style.card}>
       <View className='flex-row justify-between items-center mt-5 mb-2 mx-2 '>
         <Text className='font-bold text-xl capitalize' >{data?.name}</Text>
-        <Text className='font-thin border-2 py-2 px-2 rounded-full border-black/50'>Pokemon Experience: {data.base_experience} </Text>
+        <Text className='font-thin border-2 py-2 px-2 rounded-full border-black/70 text-black '>Pokemon Experience: {data.base_experience} </Text>
       </View>
       <View className='items-center my-4'>
         <Image source={{ uri:`${data?.sprites?.front_default}`}} height={150} width={120}/>
@@ -37,7 +36,6 @@ export default function PokemonCard({data}:{data:any}) {
         ))}
       </View>
     </View>
-   </ScrollView>
   )
 }
 
@@ -52,10 +50,10 @@ const style = StyleSheet.create({
     margin:16,
     ...Platform.select({
       ios:{
-        shadowOffset:{width:10, height:10},
+        shadowOffset:{width:20, height:20},
         shadowColor:"white",
-        shadowOpacity: 0.4,
-        shadowRadius:5
+        shadowOpacity: 0.5,
+        shadowRadius:10
       },
       android:{
         elevation:20
