@@ -4,7 +4,7 @@
 # 📱 React Native - Lesson 02
 
 Welcome to `lesson_02` — my first step into the world of **React Native**!  
-In this project, I explored and practiced the core fundamentals of building mobile apps using React Native.
+In this project, I explored more of the core components of react native and had a feel for data fetching and parsing using **axios libary**
 
 ---
 
@@ -13,14 +13,13 @@ In this project, I explored and practiced the core fundamentals of building mobi
 In this lesson, I learned how to:
 
 - Use core React Native components:
-  - `Flatlist`, `ActivityIndicator`, `Expo Router` etc.
+  - `Flatlist`, `ActivityIndicator`, `Expo Router`, `Alert`,  etc.
 - Style components using:
   - `StyleSheet`
 - Make HTTP requests using:
   - `axios`
 - Structure my project for clarity and modularity
 - Forms and input handling
-- State management (like Redux or Context API)
 - API integration with real data
 
 ---
@@ -28,10 +27,10 @@ In this lesson, I learned how to:
 ## 📂 Project Structure
 
 ```
-lesson_01/
+lesson_02/
 ├── assets/            # Images and static files
-├── app/index.tsx           # Entry point
-├── ..../home.tsx      # Using the Flatlist
+├── app/index.tsx      # Entry point
+├── .../home.tsx       # Using the Flatlist
 ```
 
 ---
@@ -53,6 +52,7 @@ In the next lessons, I plan to explore:
 - Advance Navigation (`react-navigation`)
 - Expo Tooling
 - Advance React Native Tools
+- State management (like Redux or Context API)
 
 ---
 
