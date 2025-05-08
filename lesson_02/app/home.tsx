@@ -97,6 +97,7 @@ export default function Home() {
           </Text>
         )
       }}
+      showsVerticalScrollIndicator={false}
       ListFooterComponent={() => (
         <Text style={{ textAlign:"center", marginTop:10, fontWeight:"bold", fontSize:20}}>
           End of Post list
@@ -114,7 +115,8 @@ const style = StyleSheet.create({
     borderWidth:1,
     height:250,
     width:350,
-    padding:10
+    padding:10,
+    borderRadius:16,
   },
   title:{
     fontSize:20,

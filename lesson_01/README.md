@@ -32,7 +32,7 @@ In this lesson, I learned how to:
 lesson_01/
 ├── components/        # Reusable UI components
 ├── assets/            # Images and static files
-├── app/App.tsx           # Entry point
+├── app/index.tsx           # Entry point
 ├── ...
 ```
 

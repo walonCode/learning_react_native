@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+# 📱 React Native - Lesson 02
 
-1. Install dependencies
+Welcome to `lesson_02` — my first step into the world of **React Native**!  
+In this project, I explored and practiced the core fundamentals of building mobile apps using React Native.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 What I Learned
 
-   ```bash
-   npx expo start
-   ```
+In this lesson, I learned how to:
 
-In the output, you'll find options to open the app in a
+- Use core React Native components:
+  - `Flatlist`, `ActivityIndicator`, `Expo Router` etc.
+- Style components using:
+  - `StyleSheet`
+- Make HTTP requests using:
+  - `axios`
+- Structure my project for clarity and modularity
+- Forms and input handling
+- State management (like Redux or Context API)
+- API integration with real data
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📂 Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+lesson_01/
+├── assets/            # Images and static files
+├── app/index.tsx           # Entry point
+├── ..../home.tsx      # Using the Flatlist
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🛠 Tools & Tech Used
 
-To learn more about developing your project with Expo, look at the following resources:
+- **React Native**
+- **TypeScript**
+- **Expo**
+- **Axios**
+- **JsonPlaceholder**
+- Platform-specific components (`.ios.tsx`, `.android.tsx`)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🧠 Next Steps
 
-Join our community of developers creating universal apps.
+In the next lessons, I plan to explore:
+- Advance Navigation (`react-navigation`)
+- Expo Tooling
+- Advance React Native Tools
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🤝 Contributing
+
+This is a learning project, but feel free to open issues or suggestions if you spot anything!
+
+---
+
+## 📬 Contact
+
+- Email: [mohamedlaminwalonjalloh@gmail.com](mailto:mohamedlaminwalonjalloh@gmail.com)
+- Twitter: [@walon_lamin](https://twitter.com/walon_lamin)
+
+---
